@@ -1,2 +1,3 @@
 Hello GIT
 GIT is ...
+This is new line in file
