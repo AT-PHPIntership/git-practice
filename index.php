@@ -1,17 +1,17 @@
 <?php
 class CodingConvention
 {
-	private $openTime = '10:00';
+    private $openTime = '10:00';
 
-	private $closeTime = '22:00';
+    private $closeTime = '22:00';
 
-	private $isOpen = false;
+    private $isOpen = false;
 
-	public function startService(){
-		$this->isOpen = true;
-	}
+    public function startService(){
+        $this->isOpen = true;
+    }
 
 	public function stopService(){
-        $this->isOpen = false;
-    }
+		$this->isOpen = false;
+	}
 }
